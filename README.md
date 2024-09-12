@@ -14,10 +14,13 @@ The Customer Survey form is a React.js application for collecting customer feedb
 
 # Features
 -> User-Friendly Survey Creation: Intuitive interface for creating surveys with multiple question types including multiple choice, text input, and ratings.
-->Real-Time Survey Results: View survey results in real-time with interactive charts and graphs.
+
 ->Customizable Themes: Easily change the appearance of the survey with customizable themes.
+
 ->Responsive Design: Fully responsive design ensures a seamless experience on all devices, from desktops to smartphones.
+
 ->Data Export: Export survey data in CSV format for further analysis.
+
 ->User Authentication: Secure user authentication and authorization for managing surveys and viewing results.
 
 # Installation
