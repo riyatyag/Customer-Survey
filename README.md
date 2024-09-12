@@ -2,11 +2,17 @@
 The Customer Survey form is a React.js application for collecting customer feedback in retail environments. Built with React.js for dynamic UI and local storage for session management, it offers interactive survey questions, confirmation dialogs, and user-friendly navigation.
 
 # Table of Contents
+
 1. Features
+
 2.Installation
+
 3.Usage
+
 4.Configuration
+
 5.Contributing
+
 6.Contact
 
 # Features
