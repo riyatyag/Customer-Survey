@@ -2,7 +2,6 @@
 The Customer Survey form is a React.js application for collecting customer feedback in retail environments. Built with React.js for dynamic UI and local storage for session management, it offers interactive survey questions, confirmation dialogs, and user-friendly navigation.
 
 # Table of Contents
-
 1. Features
 
 2.Installation
@@ -11,9 +10,7 @@ The Customer Survey form is a React.js application for collecting customer feedb
 
 4.Configuration
 
-5.Contributing
-
-6.Contact
+5.Contact
 
 # Features
 -> User-Friendly Survey Creation: Intuitive interface for creating surveys with multiple question types including multiple choice, text input, and ratings.
@@ -73,24 +70,9 @@ To configure the application, update the configuration files as follows:
 src/config/theme.js: Modify the theme settings to customize the appearance of your surveys.
 Refer to the Configuration Guide for detailed instructions on configuring different aspects of the application.
 
-# Contributing
-We welcome contributions from the community to improve the Customer-Survey application!
-~ To contribute:
-# Fork the Repository
-# Create a New Branch:
-~ bash (git checkout -b feature/your-feature)
-
-# Make Your Changes
-# Commit Your Changes:
-~ bash (git commit -m "Add new feature or fix issue")
-
-#  Push to Your Fork:
-~ bash (git push origin feature/your-feature)
-
-# Create a Pull Request
 
 # Contact
-For questions, support, or feedback, please contact:
+For questions,  or feedback, please contact:
 Email: tyagiriya517@gmail.com
 Feel free to customize and expand upon this README based on any additional features or specific details related to your project.
 
