@@ -1,0 +1,118 @@
+/* src/App.css */
+
+/* General Body Styles */
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: linear-gradient(135deg, #f3a683, #f7d794); /* Colorful gradient background */
+}
+
+/* Container for centering content */
+.container {
+  text-align: center;
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  padding: 20px;
+  width: 90%;
+  max-width: 600px;
+}
+
+/* Heading Styles */
+h1 {
+  font-size: 2rem;
+  color: #2d3436; /* Dark grey for text */
+  margin-bottom: 20px;
+}
+
+/* Question Styles */
+p {
+  font-size: 1.2rem;
+  color: #d63031; /* Red for question text */
+  margin: 20px 0;
+}
+
+/* Button Styles */
+button {
+  background-color: #0984e3; /* Bright blue for buttons */
+  color: #ffffff; /* White text color */
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-size: 1rem;
+  cursor: pointer;
+  margin: 5px;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #74b9ff; /* Lighter blue on hover */
+}
+
+/* Textarea Styles */
+textarea {
+  width: 100%;
+  height: 100px;
+  padding: 10px;
+  border: 2px solid #dfe6e9; /* Light grey border */
+  border-radius: 5px;
+  font-size: 1rem;
+  box-sizing: border-box;
+  margin: 10px 0;
+  transition: border-color 0.3s ease;
+}
+
+textarea:focus {
+  border-color: #0984e3; /* Highlight border color on focus */
+}
+
+/* Navigation Buttons */
+button:disabled {
+  background-color: #b2bec3; /* Greyed out color for disabled buttons */
+  cursor: not-allowed;
+}
+
+/* Submit Button Styles */
+button.submit {
+  background-color: #55efc4; /* Teal color for submit button */
+}
+
+button.submit:hover {
+  background-color: #1dd1a1; /* Darker teal on hover */
+}
+
+/* Thank You Screen Styles */
+.thank-you {
+  font-size: 1.5rem;
+  color: #2d3436;
+}
+
+/* Responsive Design */
+@media (max-width: 600px) {
+  .container {
+    padding: 15px;
+    width: 95%;
+  }
+
+  h1 {
+    font-size: 1.5rem;
+  }
+
+  p {
+    font-size: 1rem;
+  }
+
+  button {
+    font-size: 0.9rem;
+    padding: 8px 16px;
+  }
+
+  textarea {
+    height: 80px;
+  }
+}
